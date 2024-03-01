@@ -1,0 +1,88 @@
+name: アイテム系：ツール
+description: 武器や道具のアイデアはこちら
+title: "[アイテム系：ツール] <ここにタイトルを入力>"
+labels: [アイテム系：ツール]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問を埋めていただき、アイデアの情報をなるべく正確にお伝えください
+      赤い印がついているものは必ず答えてください。
+- type: checkboxes
+  id: newItem
+  attributes:
+    label: そのツールはマイクラに存在しないカテゴリのツールですか？
+    options:
+      - label: はい、杖や鎌など、新しいタイプのツールです。
+- type: input
+  id: ItemType
+  attributes:
+    label: 種類
+    description: |
+    具体的なツールの種類を書いてください（例：剣、ハサミ、斧…「鎌」や「杖」）
+  validations:
+    required: true
+- type: input
+  id: OriginalItem
+  attributes:
+    label: 元アイテムＩＤ（任意）
+    description: |
+    任意でこのアイテムを作成する元となるアイテムＩＤを入力してください、空欄の場合こちらで確定します。
+- type: input
+  id: ItemName
+  attributes:
+    label: アイテム名
+    description: |
+    アイテムの名前を入れてください
+  validations:
+    required: true
+- type: textarea
+  id: ItemDescription
+  attributes:
+    label: アイテム説明（任意）
+    description: アイテムの説明を入れてください（空欄可）
+- type: checkboxes
+  id: useSituation
+  attributes:
+    label: アイテムの用途
+    options:
+      - label: 近距離攻撃
+      - label: 遠距離攻撃
+      - label: 採取（伐採、採掘など）
+      - label: スキルの発生源
+      - label: その他
+  validations:
+    required: true
+- type: textarea
+  id: enchant
+  attributes:
+    label: エンチャント（任意）
+    description: 付与したいエンチャントを書いてください
+- type: checkboxes
+  id: hideEnchant
+  attributes:
+    label: エンチャントを隠しますか？（任意）
+    options:
+      - label: はい、付与されているエンチャントを表示しません
+- type: textarea
+  id: Attribute
+  attributes:
+    label: 特性
+    description: アイテムの特性を記入してください 
+- type: textarea
+  id: ItemDamage
+  attributes:
+    label: 耐久値損傷度
+    description: 耐久値があらかじめ削れている場合は割合、固定値などで記入してください
+- type: checkboxes
+  id: unbreakable
+  attributes:
+    label: 不可解のツールですか（任意）
+    options:
+      - label:はい、耐久値無限のツールです
+- type: textarea
+  id: uniquePoint
+  attributes:
+    label: 特筆事項（任意）
+    description: 項目に存在しない事項があれば書いてください
