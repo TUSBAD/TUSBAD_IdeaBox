@@ -19,8 +19,7 @@ body:
   id: ItemType
   attributes:
     label: 種類
-    description: |
-    具体的なツールの種類を書いてください（例：剣、ハサミ、斧…「鎌」や「杖」）
+    description: 具体的なツールの種類を書いてください（例：剣、ハサミ、斧…「鎌」や「杖」）
   validations:
     required: true
 - type: input
