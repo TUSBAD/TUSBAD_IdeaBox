@@ -1,7 +1,6 @@
 name: Installation Issue
 description: Report issues installing the pandas library on your system
 title: "BUILD: "
-labels: [Build, Needs Triage]
 
 body:
   - type: checkboxes
