@@ -1,0 +1,115 @@
+name: アイテム系：ポーション
+description: ポーションのアイデアはこちら
+title: "[アイテム系：ポーション] <ここにタイトルを入力>"
+labels: [アイテム系：ポーション]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: dropdown
+  id: PotionType
+  attributes:
+    label: ポーションの種類
+    options:
+      - 通常ポーション
+      - スプラッシュポーション
+      - 残留ポーション
+      - ポーション矢
+- type: input
+  id: ItemName
+  attributes:
+    label: アイテム名【入力推奨】
+    description: アイテムの名前を入れてください
+- type: textarea
+  id: ItemDescription
+  attributes:
+    label: アイテム説明
+    description: アイテムの説明を入れてください
+- type: textarea
+  id: ItemTextStyle
+  attributes:
+    label: 名前、説明書式
+    description: アイテムの説明や名前の文字色やスタイルに変更があれば入れてください
+- type: checkboxes
+  id: useSituation
+  attributes:
+    label: アイテムの用途カテゴリ（複数選択可能）
+    options:
+      - label: バフポーション
+      - label: デバフポーション
+      - label: その他
+- type: textarea
+  id: useImage
+  attributes:
+    label: 使用用途やイメージ
+    description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
+    value: |
+      例：一時的に前が見えなくなるが、即時回復が強いため状況を立て直せる
+      例：デバフを解除できる
+      例：飲むこともできるが、殴っても強いためネタになる
+- type: textarea
+  id: story
+  attributes:
+    label: 設定など
+    description: アイテムにストーリーや設定、またそれに基づいて入手タイミングなどに希望がある場合記入してください
+- type: textarea
+  id: enchant
+  attributes:
+    label: エンチャント
+    description: 付与したいエンチャントを書いてください
+    value: |
+      例:ダメージ増加5
+- type: checkboxes
+  id: hideEnchant
+  attributes:
+    label: エンチャントの隠蔽
+    options:
+      - label: はい、付与されているエンチャントを表示しません
+- type: textarea
+  id: effect
+  attributes:
+    label: ポーション効果
+    description: 付与したいポーション効果を書いてください
+    value: |
+      例:耐性2 3秒
+      例:浮遊5 1分　パーティクルなし　表示なし
+- type: textarea
+  id: ItemAttribute
+  attributes:
+    label: 属性
+    description: アイテムの属性を記入してください
+    value: |
+      ダメージ+5（メインハンド）
+      防具+5（オフハンド）
+      移動速度+10%（メインハンド・オフハンド）
+- type: checkboxes
+  id: hideAttribute
+  attributes:
+    label: 属性の隠蔽
+    options:
+      - label: はい、付与されている属性を表示しません
+- type: checkboxes
+  id: unbreakable
+  attributes:
+    label: 不可解のポーションですか（装飾用）
+    options:
+      - label: はい、耐久値無限のポーションです
+- type: checkboxes
+  id: CutomModel
+  attributes:
+    label: カスタムモデルの使用
+    options:
+      - label: はい、アイコンやモデルを変更します。
+- type: checkboxes
+  id: CutomModelContain
+  attributes:
+    label: カスタムモデルの存在
+    options:
+      - label: はい、変更先のアイコンやモデルがもうあります
+- type: textarea
+  id: uniquePoint
+  attributes:
+    label: 特筆事項
+    description: 項目に存在しない事項があれば書いてください
