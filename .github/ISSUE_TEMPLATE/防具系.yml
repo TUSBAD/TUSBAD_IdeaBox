@@ -32,9 +32,12 @@ body:
 - type: checkboxes
   id: isHoverWing
   attributes:
-    label: エリトラですか？
+    label: 特殊な装備品ですか？（複数選択可）
     options:
-      - label: エリトラのアイデアです
+      - label: エリトラのアイデアを含みます
+      - label: プレイヤーヘッド・モブヘッドのアイデアを含みます
+      - label: かぼちゃのアイデアを含みます
+      - label: その他特殊なものを装備するアイデアを含みます
 - type: input
   id: ItemName
   attributes:
@@ -101,7 +104,7 @@ body:
   attributes:
     label: 不可解のツールですか
     options:
-      - label: はい、耐久値無限のツールです
+      - label: はい、耐久値無限の防具です
 - type: checkboxes
   id: HideUnbreakable
   attributes:
