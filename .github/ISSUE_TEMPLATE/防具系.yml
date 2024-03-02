@@ -102,7 +102,7 @@ body:
 - type: checkboxes
   id: unbreakable
   attributes:
-    label: 不可解のツールですか
+    label: 不可解の防具ですか
     options:
       - label: はい、耐久値無限の防具です
 - type: checkboxes
