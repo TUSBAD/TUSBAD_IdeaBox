@@ -1,0 +1,31 @@
+name: 建築系：建造物
+description: 建造物のアイデアはこちら
+title: "[建築系：建造物] <ここにタイトルを入力>"
+labels: [建築系：建造物]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: textarea
+  id: Dimension
+  attributes:
+    label: 建築ディメンション
+    description: 実際に建築を行うディメンション名を入れてください
+- type: textarea
+  id: IdeaName
+  attributes:
+    label: 建造物名
+    description: 建造してほしい島や建築物の名前を入れてください
+- type: textarea
+  id: IdeaDescription
+  attributes:
+    label: アイデア説明
+    description: 建築物の説明を入れてください
+- type: textarea
+  id: gimmickIdea
+  attributes:
+    label: ギミック、内部構造などの構想
+    description: 建築物の内部の説明や、スポーンする敵、仕掛けの案を書いてください
+
