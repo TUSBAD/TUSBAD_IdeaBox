@@ -26,14 +26,12 @@ body:
   id: OriginalItem
   attributes:
     label: 元アイテムＩＤ（任意）
-    description: |
-    任意でこのアイテムを作成する元となるアイテムＩＤを入力してください、空欄の場合こちらで確定します。
+    description: 任意でこのアイテムを作成する元となるアイテムＩＤを入力してください、空欄の場合こちらで確定します。
 - type: input
   id: ItemName
   attributes:
     label: アイテム名
-    description: |
-    アイテムの名前を入れてください
+    description: アイテムの名前を入れてください
   validations:
     required: true
 - type: textarea
