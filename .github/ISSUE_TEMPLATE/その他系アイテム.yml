@@ -68,7 +68,6 @@ body:
   attributes:
     label: 属性
     description: アイテムの属性を記入してください
-    value: |
 - type: checkboxes
   id: hideAttribute
   attributes:
