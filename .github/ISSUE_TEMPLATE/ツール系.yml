@@ -28,7 +28,7 @@ body:
   id: ItemName
   attributes:
     label: アイテム名【入力推奨】
-    description:　アイテムの名前を入れてください（空欄の場合元アイテムの名前が使われます）
+    description: アイテムの名前を入れてください（空欄の場合元アイテムの名前が使われます）
 - type: textarea
   id: ItemDescription
   attributes:
@@ -82,7 +82,7 @@ body:
 - type: checkboxes
   id: hideAttribute
   attributes:
-    label:属性の隠蔽
+    label: 属性の隠蔽
     options:
       - label: はい、付与されている属性を表示しません
 - type: textarea
@@ -95,25 +95,25 @@ body:
   attributes:
     label: 不可解のツールですか
     options:
-      - label:　はい、耐久値無限のツールです
+      - label: はい、耐久値無限のツールです
 - type: checkboxes
   id: HideUnbreakable
   attributes:
     label: 不可解の隠蔽
     options:
-      - label:　はい、耐久値無限を表示しません
+      - label: はい、耐久値無限を表示しません
 - type: checkboxes
   id: CutomModel
   attributes:
     label: カスタムモデルの使用
     options:
-      - label:はい、アイコンやモデルを変更します。
+      - label: はい、アイコンやモデルを変更します。
 - type: checkboxes
   id: CutomModelContain
   attributes:
     label: カスタムモデルの存在
     options:
-      - label:　はい、変更先のアイコンやモデルがもうあります
+      - label: はい、変更先のアイコンやモデルがもうあります
 - type: textarea
   id: story
   attributes:
