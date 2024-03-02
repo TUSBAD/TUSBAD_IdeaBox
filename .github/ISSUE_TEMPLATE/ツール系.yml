@@ -42,7 +42,7 @@ body:
 - type: checkboxes
   id: useSituation
   attributes:
-    label: アイテムの用途（複数選択可能）
+    label: アイテムの用途カテゴリ（複数選択可能）
     options:
       - label: 近距離攻撃
       - label: 遠距離攻撃
@@ -52,18 +52,23 @@ body:
 - type: textarea
   id: useSituation2
   attributes:
-    label: その他の使用用途
-    description: 用途でその他を選んだ場合、いつ使うのかを書いてください
+    label: 使用用途・イメージ
+    description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
    　value: |
-      例：収集品
-      例：ジョークアイテム
+      例：攻撃速度が早いので、攻撃回数を稼ぎたい時に使用する
+      例：持つと移動速度が遅くなるが、攻撃力が非常に高いので一撃必殺を狙える
+- type: textarea
+  id: story
+  attributes:
+    label: 設定など
+    description: アイテムにストーリーや設定、またそれに基づいて入手タイミングなどに希望がある場合記入してください
 - type: textarea
   id: enchant
   attributes:
     label: エンチャント
     description: 付与したいエンチャントを書いてください
    　value: |
-      ダメージ増加5
+      例：ダメージ増加5
 - type: checkboxes
   id: hideEnchant
   attributes:
@@ -114,11 +119,6 @@ body:
     label: カスタムモデルの存在
     options:
       - label: はい、変更先のアイコンやモデルがもうあります
-- type: textarea
-  id: story
-  attributes:
-    label: 設定など
-    description: ストーリーや設定、またそれに基づいて入手タイミングなどに希望がある場合記入してください
 - type: textarea
   id: uniquePoint
   attributes:
