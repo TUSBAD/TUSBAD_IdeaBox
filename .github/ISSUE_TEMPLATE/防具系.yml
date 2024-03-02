@@ -1,0 +1,127 @@
+name: アイテム系：防具
+description: 防具のアイデアはこちら
+title: "[アイテム系：防具] <ここにタイトルを入力>"
+labels: [アイテム系：防具]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: checkboxes
+  id: isSeries
+  attributes:
+    label: シリーズ防具ですか？（二つ以上の部位が存在する）
+    options:
+      - label: シリーズ防具です
+- type: checkboxes
+  id: aromorType
+  attributes:
+    label: 防具の部位（一式を作る場合などは複数選択可能）
+    options:
+      - label: 頭
+      - label: 体
+      - label: 足
+      - label: 靴
+      - label: 盾
+- type: input
+  id: OriginalItem
+  attributes:
+    label: 元アイテムＩＤ
+    description: このアイテムを作成する元となるアイテムＩＤを入力してください、空欄の場合こちらで確定します。
+- type: checkboxes
+  id: isHoverWing
+  attributes:
+    label: エリトラですか？
+    options:
+      - label: エリトラのアイデアです
+- type: input
+  id: ItemName
+  attributes:
+    label: アイテム名【入力推奨】
+    description: アイテムの名前を入れてください（空欄の場合元アイテムの名前が使われます）
+- type: textarea
+  id: ItemDescription
+  attributes:
+    label: アイテム説明
+    description: アイテムの説明を入れてください
+- type: textarea
+  id: ItemTextStyle
+  attributes:
+    label: 名前、説明書式
+    description: アイテムの説明や名前の文字色やスタイルに変更があれば入れてください
+- type: textarea
+  id: useImage
+  attributes:
+    label: 使用用途やイメージ
+    description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
+    value: |
+      例：棘の鎧を活かした反撃
+      例：装備時は基礎体力が増強される
+- type: textarea
+  id: story
+  attributes:
+    label: 設定など
+    description: アイテムにストーリーや設定、またそれに基づいて入手タイミングなどに希望がある場合記入してください
+- type: textarea
+  id: enchant
+  attributes:
+    label: エンチャント
+    description: 付与したいエンチャントを書いてください
+    value: |
+      例:ダメージ軽減5
+- type: checkboxes
+  id: hideEnchant
+  attributes:
+    label: エンチャントの隠蔽
+    options:
+      - label: はい、付与されているエンチャントを表示しません
+- type: textarea
+  id: ItemAttribute
+  attributes:
+    label: 属性
+    description: アイテムの属性を記入してください
+    value: |
+      防具強度+2（頭）
+      防具+5（体）
+      移動速度+10%（靴）
+- type: checkboxes
+  id: hideAttribute
+  attributes:
+    label: 属性の隠蔽
+    options:
+      - label: はい、付与されている属性を表示しません
+- type: textarea
+  id: ItemDamage
+  attributes:
+    label: 耐久値損傷度
+    description: 耐久値があらかじめ削れている場合は割合、固定値などで記入してください
+- type: checkboxes
+  id: unbreakable
+  attributes:
+    label: 不可解のツールですか
+    options:
+      - label: はい、耐久値無限のツールです
+- type: checkboxes
+  id: HideUnbreakable
+  attributes:
+    label: 不可解の隠蔽
+    options:
+      - label: はい、耐久値無限を表示しません
+- type: checkboxes
+  id: CutomModel
+  attributes:
+    label: カスタムモデルの使用
+    options:
+      - label: はい、アイコンやモデルを変更します。
+- type: checkboxes
+  id: CutomModelContain
+  attributes:
+    label: カスタムモデルの存在
+    options:
+      - label: はい、変更先のアイコンやモデルがもうあります
+- type: textarea
+  id: uniquePoint
+  attributes:
+    label: 特筆事項
+    description: 項目に存在しない事項があれば書いてください
