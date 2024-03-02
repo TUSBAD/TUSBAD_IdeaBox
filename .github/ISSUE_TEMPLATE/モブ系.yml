@@ -34,10 +34,10 @@ body:
   attributes:
     label: プレイヤーとの関係は？
     options:
-   　- label: どれでもない（AI無効など）
-   　- label: 温厚
-   　- label: 中立
-   　- label: 敵対
+      - label: どれでもない（AI無効など）
+      - label: 温厚
+      - label: 中立
+      - label: 敵対
 - type: textarea
   id: MobStatus
   attributes:
