@@ -1,5 +1,5 @@
 name: モブ系
-description: モブ系のアイデアはこちら
+description: モブ系・エンティティ系のアイデアはこちら
 title: "[モブ系] <ここにタイトルを入力>"
 labels: [モブ系]
 body:
@@ -11,8 +11,8 @@ body:
 - type: input
   id: MobName
   attributes:
-    label: モブ名【入力推奨】
-    description: モブの名前を入れてください
+    label: エンティティ名【入力推奨】
+    description: エンティティの名前を入れてください
 - type: input
   id: OriginalMob
   attributes:
@@ -28,7 +28,7 @@ body:
   attributes:
     label: ボスですか？
     options:
-      - label: はい、ボスとして扱われるモブです
+      - label: はい、ボスとして扱われるエンティティです
 - type: checkboxes
   id: isHostile
   attributes:
@@ -77,7 +77,7 @@ body:
     value: |
       例：ダイヤ装備一式　ダメ増３エンチャントの不可壊ダイヤ剣をメインハンドに持っている
       例：ダイヤ剣は「少年の日の思い出」という名前がついている、説明文は「そうか、つまり君はそういうやつなんだな。」
-      ※：既にIssueやADなどに広く公開されているアイテムを使用する際は詳しく表記しなくても問題ないです
+      　：既にIssueやADなどに広く公開されているアイテムを使用する際は詳しく表記しなくても問題ないです
 - type: textarea
   id: DropRoot
   attributes:
@@ -92,7 +92,7 @@ body:
     description: 別エンティティに騎乗されている、または別エンティティに騎乗している場合、詳細を書いてください
   　value: |
       例：下から順に、ゾンビ、ゾンビ、このエンティティになっている
-      ※：既にIssueやADなどに広く公開されているエンティティを使用する際は詳しく表記しなくても問題ないです
+      　：既にIssueやADなどに広く公開されているエンティティを使用する際は詳しく表記しなくても問題ないです
 - type: textarea
   id: skill
   attributes:
@@ -107,7 +107,7 @@ body:
   id: story
   attributes:
     label: 設定など
-    description: モブにストーリーや設定、またそれに基づいて出現タイミング、出現場所などに希望がある場合記入してください
+    description: エンティティにストーリーや設定、またそれに基づいて出現タイミング、出現場所などに希望がある場合記入してください
 - type: textarea
   id: uniquePoint
   attributes:
