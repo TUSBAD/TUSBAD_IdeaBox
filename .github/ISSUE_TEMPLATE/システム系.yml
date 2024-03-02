@@ -1,0 +1,30 @@
+name: システム系：システム
+description: システムのアイデアはこちら
+title: "[システム系：システム] <ここにタイトルを入力>"
+labels: [システム系：システム]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: input
+  id: Title
+  attributes:
+    label: タイトル
+    description: 提案内容を一言で表すなら
+- type: textarea
+  id: IdeaDescription
+  attributes:
+    label: アイデア説明
+    description: アイデアの説明を入れてください
+- type: textarea
+  id: IdeaStart
+  attributes:
+    label: アイデアの根拠
+    description: どのような理由で、そのアイデアをＴＵＳＢＡＤのシステムに提案しようと思いましたか？
+- type: textarea
+  id: IdeaFinal
+  attributes:
+    label: アイデアの効果
+    description: そのアイデアはＴＵＳＢＡＤにどのようなことをもたらしますか？
