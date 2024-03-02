@@ -90,9 +90,9 @@ body:
     label: 属性
     description: アイテムの属性を記入してください
     value: |
-      ダメージ+5（メインハンド）
-      防具+5（オフハンド）
-      移動速度+10%（メインハンド・オフハンド）
+       例：ダメージ+5（メインハンド）
+       例：防具+5（オフハンド）
+       例：移動速度+10%（メインハンド・オフハンド）
 - type: checkboxes
   id: hideAttribute
   attributes:
