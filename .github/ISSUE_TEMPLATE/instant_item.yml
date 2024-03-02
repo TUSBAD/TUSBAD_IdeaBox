@@ -41,7 +41,7 @@ body:
   attributes:
     label: 使用用途やイメージ
     description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
-    value: |
+    placeholder: |
        例：砂利が足りないときに積み上げを行うことで砂利を調達できる
 - type: checkboxes
   id: notConsume
@@ -59,7 +59,7 @@ body:
   attributes:
     label: エンチャント
     description: 付与したいエンチャントを書いてください
-    value: |
+    placeholder: |
       例:虫特攻3
 - type: checkboxes
   id: hideEnchant
@@ -72,7 +72,7 @@ body:
   attributes:
     label: 使用効果
     description: 使用した時の効果を書いてください
-    value: |
+    placeholder: |
       例：周辺にいるモブに等しく死を与える
       例：微粒子レベルの確率で苗木が出てくる
       例：必ず的中する嫌な予感を発生させる
@@ -81,7 +81,7 @@ body:
   attributes:
     label: 属性
     description: アイテムの属性を記入してください
-    value: |
+    placeholder: |
        例：ダメージ+5（メインハンド）
        例：防具+5（オフハンド）
        例：移動速度+10%（メインハンド・オフハンド）
