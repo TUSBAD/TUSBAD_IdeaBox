@@ -54,7 +54,7 @@ body:
   attributes:
     label: 使用用途やイメージ
     description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
-   　value: |
+     value: |
       例：攻撃速度が早いので、攻撃回数を稼ぎたい時に使用する
       例：持つと移動速度が遅くなるが、攻撃力が非常に高いので一撃必殺を狙える
 - type: textarea
@@ -67,8 +67,8 @@ body:
   attributes:
     label: エンチャント
     description: 付与したいエンチャントを書いてください
-   　value: |
-      例：ダメージ増加5
+     value: |
+      例:ダメージ増加5
 - type: checkboxes
   id: hideEnchant
   attributes:
