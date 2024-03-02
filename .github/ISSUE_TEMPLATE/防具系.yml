@@ -85,9 +85,9 @@ body:
     label: 属性
     description: アイテムの属性を記入してください
     value: |
-      防具強度+2（頭）
-      防具+5（体）
-      移動速度+10%（靴）
+       例：防具強度+2（頭）
+       例：防具+5（体）
+       例：移動速度+10%（靴）
 - type: checkboxes
   id: hideAttribute
   attributes:
