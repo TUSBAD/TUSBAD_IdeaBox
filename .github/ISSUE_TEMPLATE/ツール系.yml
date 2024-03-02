@@ -23,7 +23,7 @@ body:
   id: OriginalItem
   attributes:
     label: 元アイテムＩＤ
-    description: このアイテムを作成する元となるアイテムＩＤを入力してください、空欄の場合こちらで確定します。
+    description: このアイテムを作成する元となるアイテムＩＤまたはアイテム名を正確に入力してください、空欄の場合こちらで確定します。
 - type: input
   id: ItemName
   attributes:
