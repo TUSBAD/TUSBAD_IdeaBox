@@ -5,7 +5,7 @@ labels: [アイテム系：ツール]
 body:
 - type: markdown
   attributes:
-    value: |
+    placeholder: |
       ## アイデアのご協力ありがとうございます。
       以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
 - type: checkboxes
@@ -54,7 +54,7 @@ body:
   attributes:
     label: 使用用途やイメージ
     description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
-    value: |
+    placeholder: |
       例：攻撃速度が早いので、攻撃回数を稼ぎたい時に使用する
       例：持つと移動速度が遅くなるが、攻撃力が非常に高いので一撃必殺を狙える
 - type: textarea
@@ -67,7 +67,7 @@ body:
   attributes:
     label: エンチャント
     description: 付与したいエンチャントを書いてください
-    value: |
+    placeholder: |
       例:ダメージ増加5
 - type: checkboxes
   id: hideEnchant
@@ -80,7 +80,7 @@ body:
   attributes:
     label: 属性
     description: アイテムの属性を記入してください
-    value: |
+    placeholder: |
        例：ダメージ+5（メインハンド）
        例：防具+5（オフハンド）
        例：移動速度+10%（メインハンド・オフハンド）
