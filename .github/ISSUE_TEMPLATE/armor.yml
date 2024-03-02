@@ -58,7 +58,7 @@ body:
   attributes:
     label: 使用用途やイメージ
     description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
-    value: |
+    placeholder: |
       例：棘の鎧を活かした反撃
       例：装備時は基礎体力が増強される
 - type: textarea
@@ -71,7 +71,7 @@ body:
   attributes:
     label: エンチャント
     description: 付与したいエンチャントを書いてください
-    value: |
+    placeholder: |
       例:ダメージ軽減5
 - type: checkboxes
   id: hideEnchant
@@ -84,7 +84,7 @@ body:
   attributes:
     label: 属性
     description: アイテムの属性を記入してください
-    value: |
+    placeholder: |
        例：防具強度+2（頭）
        例：防具+5（体）
        例：移動速度+10%（靴）
