@@ -55,8 +55,6 @@ body:
   attributes:
     label: エンチャント
     description: 付与したいエンチャントを書いてください
-    value: |
-      例:シルクタッチ
 - type: checkboxes
   id: hideEnchant
   attributes:
