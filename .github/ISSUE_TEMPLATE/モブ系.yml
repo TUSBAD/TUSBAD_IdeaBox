@@ -1,0 +1,115 @@
+name: モブ系
+description: モブ系のアイデアはこちら
+title: "[モブ系] <ここにタイトルを入力>"
+labels: [モブ系]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: input
+  id: MobName
+  attributes:
+    label: モブ名【入力推奨】
+    description: モブの名前を入れてください
+- type: input
+  id: OriginalMob
+  attributes:
+    label: 元となるエンティティIDもしくは名前
+    description: 元となるエンティティのＩＤもしくは名前を入れてください
+- type: textarea
+  id: NameTextStyle
+  attributes:
+    label: 名前書式
+    description: 名前の文字色やスタイルに変更があれば入れてください
+- type: checkboxes
+  id: isBoss
+  attributes:
+    label: ボスですか？
+    options:
+      - label: はい、ボスとして扱われるモブです
+- type: checkboxes
+  id: isHostile
+  attributes:
+    label: プレイヤーとの関係は？
+    options:
+   　- label: どれでもない（AI無効など）
+   　- label: 温厚
+   　- label: 中立
+   　- label: 敵対
+- type: textarea
+  id: MobStatus
+  attributes:
+    label: エンティティのステータスについて
+    description: エンティティのＨＰやステータス、特性などを記入してください
+    value: |
+      例：HP10 移動速度10%増加　アイテムを拾う
+      例：HP100　爆発範囲マイナス　すぐに爆発する
+- type: textarea
+  id: mineCart
+  attributes:
+    label: トロッコの場合、内容について
+    description: スポナートロッコ、チェスト付きトロッコなど特殊トロッコを使用する場合、情報を記入してください
+    value: |
+      例：炎スポナートロッコを背負っています
+      例：シルバーフィッシュ入り石スポナートロッコを背負っています
+      例：腐った肉が１スタック入ったチェストトロッコを背負っています
+- type: textarea
+  id: trade
+  attributes:
+    label: 取引内容について
+    description: 村人の場合の取引内容について記載してください
+    value: |
+      例：エメラルド３２個で腐った肉１スタック
+- type: textarea
+  id: MobEffect
+  attributes:
+    label: エンティティのエフェクトについて
+    description: エンティティのエフェクトなどを記入してください
+    value: |
+      例：透明化1 永続 パーティクルなし
+- type: textarea
+  id: MobEquip
+  attributes:
+    label: エンティティの装備について
+    description: エンティティの装備などを記入してください
+    value: |
+      例：ダイヤ装備一式　ダメ増３エンチャントの不可壊ダイヤ剣をメインハンドに持っている
+      例：ダイヤ剣は「少年の日の思い出」という名前がついている、説明文は「そうか、つまり君はそういうやつなんだな。」
+    　※：既にIssueやADなどに広く公開されているアイテムを使用する際は詳しく表記しなくても問題ないです
+- type: textarea
+  id: DropRoot
+  attributes:
+    label: エンティティのドロップアイテムについて
+    description: エンティティの装備アイテムのドロップ率を記入してください
+    value: |
+      例：ダイヤ装備一式：それぞれ１５％　「少年の日の思い出」：２％
+- type: textarea
+  id: rideMob
+  attributes:
+    label: 騎乗エンティティ
+    description: 別エンティティに騎乗されている、または別エンティティに騎乗している場合、詳細を書いてください
+  　value: |
+      例：下から順に、ゾンビ、ゾンビ、このエンティティになっている
+    　※：既にIssueやADなどに広く公開されているエンティティを使用する際は詳しく表記しなくても問題ないです
+- type: textarea
+  id: skill
+  attributes:
+    label: スキルについて
+    description: エンティティが使用するスキルについて記載してください
+- type: textarea
+  id: deathPotion
+  attributes:
+    label: 死亡時ポーションについて
+    description: エンティティが死亡時に落とすポーションがあれば記載してください
+- type: textarea
+  id: story
+  attributes:
+    label: 設定など
+    description: モブにストーリーや設定、またそれに基づいて出現タイミング、出現場所などに希望がある場合記入してください
+- type: textarea
+  id: uniquePoint
+  attributes:
+    label: 特筆事項
+    description: 項目に存在しない事項があれば書いてください
