@@ -1,0 +1,35 @@
+name: リソース系
+description: リソース系のアイデアはこちら
+title: "[リソース系] <ここにタイトルを入力>"
+labels: [リソース系]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: dropdown
+  id: ResourceType
+  attributes:
+    label: リソースの種類
+    options:
+      - テクスチャ
+      - スキン
+      - ３Ｄモデル
+      - その他（音声ファイルなど）
+- type: checkboxes
+  id: CutomModelContain
+  attributes:
+    label: すでに完成しているか
+    options:
+      - label: はい、リソース自体は既に制作しています
+- type: textarea
+  id: IdeaDescription
+  attributes:
+    label: アイデア概要
+    description: アイデアの概要を入れてください
+- type: textarea
+  id: IdeaStart
+  attributes:
+    label: アイデア用途
+    description: アイデアの用途を入れてください
