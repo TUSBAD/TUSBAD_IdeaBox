@@ -75,6 +75,15 @@ body:
     value: |
       例:耐性2 3秒
       例:浮遊5 1分　パーティクルなし　表示なし
+      例:即時回復29
+- type: textarea
+  id: effectEx
+  attributes:
+    label: 特殊なポーション効果
+    description: 付与したい特殊なポーション効果を書いてください
+    value: |
+      例:MPを回復する
+      例:ランダムな効果が起きる
 - type: textarea
   id: ItemAttribute
   attributes:
