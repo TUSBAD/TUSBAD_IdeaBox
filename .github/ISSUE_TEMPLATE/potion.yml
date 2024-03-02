@@ -45,7 +45,7 @@ body:
   attributes:
     label: 使用用途やイメージ
     description: どのようなタイミングでどのように使うのかイメージがあれば書いてください
-    value: |
+    placeholder: |
       例：一時的に前が見えなくなるが、即時回復が強いため状況を立て直せる
       例：デバフを解除できる
       例：飲むこともできるが、殴っても強いためネタになる
@@ -59,7 +59,7 @@ body:
   attributes:
     label: エンチャント
     description: 付与したいエンチャントを書いてください
-    value: |
+    placeholder: |
       例:ダメージ増加5
 - type: checkboxes
   id: hideEnchant
@@ -72,7 +72,7 @@ body:
   attributes:
     label: ポーション効果
     description: 付与したいポーション効果を書いてください
-    value: |
+    placeholder: |
       例:耐性2 3秒
       例:浮遊5 1分　パーティクルなし　表示なし
       例:即時回復29
@@ -81,7 +81,7 @@ body:
   attributes:
     label: 特殊なポーション効果
     description: 付与したい特殊なポーション効果を書いてください
-    value: |
+    placeholder: |
       例:MPを回復する
       例:ランダムな効果が起きる
 - type: textarea
@@ -89,7 +89,7 @@ body:
   attributes:
     label: 属性
     description: アイテムの属性を記入してください
-    value: |
+    placeholder: |
        例：ダメージ+5（メインハンド）
        例：防具+5（オフハンド）
        例：移動速度+10%（メインハンド・オフハンド）
