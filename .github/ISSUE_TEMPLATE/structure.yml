@@ -32,9 +32,19 @@ body:
   id: gimmickIdea
   attributes:
     label: 内部構想
-    description: 建築物の内部の説明や、スポーンする敵、仕掛けの案、報酬などを書いてください
+    description: 建築物の内部の説明やギミック、スポーンする敵、仕掛けの案、報酬、発生するイベントなどがあれば書いてください
+- type: textarea
+  id: appeal
+  attributes:
+    label: アピールポイント
+    description: この島を訪れる目的や、訪れたら何が起きるか、訪れる目的があるかなどがあれば記入してください
 - type: textarea
   id: routeIdea
   attributes:
     label: レベルイメージ
     description: 攻略難度や難所、攻略手順などのバランス的イメージがあれば書いてください
+- type: textarea
+  id: uniquePoint
+  attributes:
+    label: 特筆事項
+    description: 項目にない特筆事項があれば書いてください。
