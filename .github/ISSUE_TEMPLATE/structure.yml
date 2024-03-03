@@ -22,10 +22,19 @@ body:
   id: IdeaDescription
   attributes:
     label: アイデア説明
-    description: 建築物の説明を入れてください
+    description: 建築物の設定やストーリー、イメージ、コンセプトを入れてください
+- type: textarea
+  id: designIdea
+  attributes:
+    label: 外部構想
+    description: 、モチーフなどがあればそれの説明や、外部構造、建材を書いてください
 - type: textarea
   id: gimmickIdea
   attributes:
-    label: ギミック、内部構造などの構想
-    description: 建築物の内部の説明や、スポーンする敵、仕掛けの案を書いてください
-
+    label: 内部構想
+    description: 建築物の内部の説明や、スポーンする敵、仕掛けの案、報酬などを書いてください
+- type: textarea
+  id: routeIdea
+  attributes:
+    label: レベルイメージ
+    description: 攻略難度や難所、攻略手順などのバランス的イメージがあれば書いてください
