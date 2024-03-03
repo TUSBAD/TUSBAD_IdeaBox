@@ -27,12 +27,12 @@ body:
   id: designIdea
   attributes:
     label: 外部構想
-    description: 、モチーフなどがあればそれの説明や、外部構造、建材を書いてください
+    description: 建造物外部の説明やモチーフ、外部構造、建材、建築規模、大まかな高度などを書いてください
 - type: textarea
   id: gimmickIdea
   attributes:
     label: 内部構想
-    description: 建築物の内部の説明やギミック、スポーンする敵、仕掛けの案、報酬、発生するイベントなどがあれば書いてください
+    description: 建築物内部の説明やギミック、スポーンする敵、仕掛けの案、報酬、発生するイベントなどがあれば書いてください
 - type: textarea
   id: appeal
   attributes:
