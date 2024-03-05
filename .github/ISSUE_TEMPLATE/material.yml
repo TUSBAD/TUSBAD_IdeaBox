@@ -61,6 +61,11 @@ body:
   attributes:
     label: 特筆事項
     description: 項目に存在しない事項があれば書いてください
+- type: markdown
+  attributes:
+    value: |
+      以下はファイルを添付するゾーンです
+
       ---
 - type: markdown
   attributes:
