@@ -56,11 +56,14 @@ body:
     label: カスタムモデルの存在
     options:
       - label: はい、変更先のアイコンやモデルがもうあります
-- type: markdown
-  attributes:
-    value: テクスチャが存在する場合、問題が無ければ「右上の「・・・」ボタンから、Editを選んでこの辺りに画像ファイルを設置してください」
 - type: textarea
   id: uniquePoint
   attributes:
     label: 特筆事項
     description: 項目に存在しない事項があれば書いてください
+
+      ---
+- type: markdown
+  attributes:
+    value: ## テクスチャが存在する場合、問題が無ければ「右上の「・・・」ボタンから、Editを選んでこの辺りに画像ファイルを設置してください
+
