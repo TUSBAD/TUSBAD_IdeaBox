@@ -9,13 +9,6 @@ body:
       ## アイデアのご協力ありがとうございます。
       以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
 - type: textarea
-  id: ItemType
-  attributes:
-    label: アイテムの概要
-    description: どのようなアイテムなのかを書いてください
-  validations:
-    required: true
-- type: textarea
   id: useImage
   attributes:
     label: 使用レシピ
