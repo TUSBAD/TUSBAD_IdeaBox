@@ -1,0 +1,70 @@
+name: アイテム系：素材アイテム
+description: クラフトや何かしらの素材として使う専用のアイテムのアイデアはこちら
+title: "[アイテム系：素材アイテム] <ここにタイトルを入力>"
+labels: [アイテム系：素材アイテム]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: textarea
+  id: ItemType
+  attributes:
+    label: アイテムの概要
+    description: どのようなアイテムなのかを書いてください
+  validations:
+    required: true
+- type: textarea
+  id: useImage
+  attributes:
+    label: 使用レシピ
+    description: このアイテムを使うレシピなどの案があれば記述してください
+- type: input
+  id: ItemName
+  attributes:
+    label: アイテム名【入力推奨】
+    description: アイテムの名前を入れてください
+- type: textarea
+  id: ItemDescription
+  attributes:
+    label: アイテム説明
+    description: アイテムの説明を入れてください
+- type: textarea
+  id: ItemTextStyle
+  attributes:
+    label: 名前、説明書式
+    description: アイテムの説明や名前の文字色やスタイルに変更があれば入れてください
+- type: input
+  id: OriginalItem
+  attributes:
+    label: 元アイテムＩＤ
+    description: このアイテムを作成する元となるアイテムＩＤまたはアイテム名を正確に入力してください、空欄の場合こちらで確定します。
+- type: textarea
+  id: story
+  attributes:
+    label: 設定など
+    description: アイテムにストーリーや設定、またそれに基づいて入手タイミングなどに希望がある場合記入してください
+- type: checkboxes
+  id: EnchantEffect
+  attributes:
+    label: エンチャントのエフェクトの表示
+    options:
+      - label: はい、エンチャントのエフェクトをアイテムに付与します（隠蔽＋効果のないエンチャント）
+- type: checkboxes
+  id: CutomModel
+  attributes:
+    label: カスタムモデルの使用
+    options:
+      - label: はい、アイコンやモデルを変更します。
+- type: checkboxes
+  id: CutomModelContain
+  attributes:
+    label: カスタムモデルの存在
+    options:
+      - label: はい、変更先のアイコンやモデルがもうあります
+- type: textarea
+  id: uniquePoint
+  attributes:
+    label: 特筆事項
+    description: 項目に存在しない事項があれば書いてください
