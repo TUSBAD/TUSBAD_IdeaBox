@@ -58,8 +58,7 @@ body:
       - label: はい、変更先のアイコンやモデルがもうあります
 - type: ItemTexture
   attributes:
-    value: |
-      ## テクスチャが存在する場合、問題が無ければ「右上の「・・・」ボタンから、Editを選んでこの辺りに画像ファイルを設置してください」
+    value: テクスチャが存在する場合、問題が無ければ「右上の「・・・」ボタンから、Editを選んでこの辺りに画像ファイルを設置してください」
 - type: textarea
   id: uniquePoint
   attributes:
