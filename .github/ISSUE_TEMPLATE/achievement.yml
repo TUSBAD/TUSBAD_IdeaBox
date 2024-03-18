@@ -1,0 +1,40 @@
+name: システム系：実績
+description: 実績のアイデアはこちら
+title: "[システム系：実績] <ここにタイトルを入力>"
+labels: [システム系：実績]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## アイデアのご協力ありがとうございます。
+      以下の質問をできる限り埋めていただき、アイデアをなるべく正確にお伝えください
+- type: input
+  id: Title
+  attributes:
+    label: 実績名
+    description: 実績名を書いてください
+- type: textarea
+  id: IdeaCategory
+  attributes:
+    label: 実績のカテゴリ
+    description: 実績の種別を入れてください（敵討伐、アイテム収集など…）
+- type: textarea
+  id: IdeaDescription
+  attributes:
+    label: 実績の説明文
+    description: 実績の説明を入れてください
+- type: textarea
+  id: IdeaStart
+  attributes:
+    label: 実績の条件
+    description: どのような条件を達成するとこの実績は取得できますか？
+- type: textarea
+  id: IdeaIcon
+  attributes:
+    label: アイコン
+    description: アイコンに関してイメージがあれば
+- type: textarea
+  id: IdeaRequest
+  attributes:
+    label: 前提実績
+    description: この実績を取得するのに必要な実績があれば記述してください
